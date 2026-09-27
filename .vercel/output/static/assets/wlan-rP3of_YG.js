@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dp_HiUG-.js";import{t}from"./useNavigate-CkAEBVfH.js";var n=e();function r(){return(0,n.jsx)(t,{to:`/`})}export{r as component};

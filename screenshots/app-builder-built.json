@@ -1,0 +1,41 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OFFCHAT",
+      "hasCanvas": false,
+      "bodyTextLen": 427,
+      "bodyTextHash": "14239ecf447dd3c1d86d383cee9481e05c6d3bcfc5dadbbfdf30ebeedb61a108",
+      "bodyTextPrefix": "Sprache DE EN ES RU 中文 LOKALES SOZIALES NETZ OFFCHAT Social Medi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OFFCHAT",
+      "hasCanvas": false,
+      "bodyTextLen": 427,
+      "bodyTextHash": "14239ecf447dd3c1d86d383cee9481e05c6d3bcfc5dadbbfdf30ebeedb61a108",
+      "bodyTextPrefix": "Sprache DE EN ES RU 中文 LOKALES SOZIALES NETZ OFFCHAT Social Medi",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text replaced (similar length, page start changed)",
+    "mobile: body text replaced (similar length, page start changed)"
+  ]
+}

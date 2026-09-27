@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Offchat" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/offchat_bg</item>
+        <item name="android:statusBarColor">@color/offchat_bg</item>
+        <item name="android:navigationBarColor">@color/offchat_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/offchat_fg</item>
+    </style>
+</resources>

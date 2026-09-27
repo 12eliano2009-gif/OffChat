@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dp_HiUG-.js";import{s as t,t as n}from"./signed-in-vWVgBvls.js";import{t as r}from"./inbox-D8t3Km-Q.js";var i=e();function a(){return(0,i.jsx)(n,{children:(0,i.jsx)(t,{children:(0,i.jsx)(`div`,{className:`mx-auto flex min-h-[calc(100dvh-3rem)] max-w-lg flex-col tab-safe lg:min-h-dvh`,children:(0,i.jsx)(r,{})})})})}export{a as component};

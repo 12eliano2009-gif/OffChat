@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/get",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OffX",
+      "hasCanvas": false,
+      "bodyTextLen": 726,
+      "bodyTextHash": "fa935c4f0539f7a46a5e4a4c5870ede3ccc7d65e45e100482b0dad69e07f9de7",
+      "bodyTextPrefix": "OFFX VON DER WEBSITE AUFS GERÄT OFFX HOLEN Kein Store. OffX ist ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/offx-get.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OffX",
+      "hasCanvas": false,
+      "bodyTextLen": 726,
+      "bodyTextHash": "fa935c4f0539f7a46a5e4a4c5870ede3ccc7d65e45e100482b0dad69e07f9de7",
+      "bodyTextPrefix": "OFFX VON DER WEBSITE AUFS GERÄT OFFX HOLEN Kein Store. OffX ist ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/offx-get-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/offx-get.json"
+}

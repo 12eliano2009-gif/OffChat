@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dp_HiUG-.js";import{s as t,t as n}from"./signed-in-vWVgBvls.js";import{t as r}from"./profile-view-Axa8g6Uh.js";import{t as i}from"./index-JjpAHFcu.js";var a=e();function o(){let{userId:e}=i.useParams();return(0,a.jsx)(n,{children:(0,a.jsx)(t,{children:(0,a.jsx)(r,{userId:e})})})}export{o as component};

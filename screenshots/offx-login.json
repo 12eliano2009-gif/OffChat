@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/login",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OffX",
+      "hasCanvas": false,
+      "bodyTextLen": 347,
+      "bodyTextHash": "f35804946a86dbc01f48e7ee411ce703d0bfa7ed1a25cfb244509df6cc6c5286",
+      "bodyTextPrefix": "OFFX Anmelden Google oder E-Mail. Danach die App aufs Gerät hole",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/offx-login.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OffX",
+      "hasCanvas": false,
+      "bodyTextLen": 347,
+      "bodyTextHash": "f35804946a86dbc01f48e7ee411ce703d0bfa7ed1a25cfb244509df6cc6c5286",
+      "bodyTextPrefix": "OFFX Anmelden Google oder E-Mail. Danach die App aufs Gerät hole",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/offx-login-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/offx-login.json"
+}

@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.offchat"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/workspace/native/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/workspace/native/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/workspace/native/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/workspace/native/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/workspace/native/android/app/src/main/AndroidManifest.xml:5:5-76
+13-->/workspace/native/android/app/src/main/AndroidManifest.xml:5:22-73
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/workspace/native/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/workspace/native/android/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/workspace/native/android/app/src/main/AndroidManifest.xml:7:5-81
+15-->/workspace/native/android/app/src/main/AndroidManifest.xml:7:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/workspace/native/android/app/src/main/AndroidManifest.xml:8:5-65
+16-->/workspace/native/android/app/src/main/AndroidManifest.xml:8:22-62
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/workspace/native/android/app/src/main/AndroidManifest.xml:9:5-71
+17-->/workspace/native/android/app/src/main/AndroidManifest.xml:9:22-68
+18    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+18-->/workspace/native/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/workspace/native/android/app/src/main/AndroidManifest.xml:10:22-77
+19    <uses-permission
+19-->/workspace/native/android/app/src/main/AndroidManifest.xml:11:5-95
+20        android:name="android.permission.BLUETOOTH"
+20-->/workspace/native/android/app/src/main/AndroidManifest.xml:11:22-65
+21        android:maxSdkVersion="30" />
+21-->/workspace/native/android/app/src/main/AndroidManifest.xml:11:66-92
+22    <uses-permission
+22-->/workspace/native/android/app/src/main/AndroidManifest.xml:12:5-101
+23        android:name="android.permission.BLUETOOTH_ADMIN"
+23-->/workspace/native/android/app/src/main/AndroidManifest.xml:12:22-71
+24        android:maxSdkVersion="30" />
+24-->/workspace/native/android/app/src/main/AndroidManifest.xml:12:72-98
+25    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+25-->/workspace/native/android/app/src/main/AndroidManifest.xml:13:5-76
+25-->/workspace/native/android/app/src/main/AndroidManifest.xml:13:22-73
+26    <uses-permission
+26-->/workspace/native/android/app/src/main/AndroidManifest.xml:14:5-120
+27        android:name="android.permission.BLUETOOTH_SCAN"
+27-->/workspace/native/android/app/src/main/AndroidManifest.xml:14:22-70
+28        android:usesPermissionFlags="neverForLocation" />
+28-->/workspace/native/android/app/src/main/AndroidManifest.xml:14:71-117
+29    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+29-->/workspace/native/android/app/src/main/AndroidManifest.xml:15:5-78
+29-->/workspace/native/android/app/src/main/AndroidManifest.xml:15:22-75
+30    <uses-permission android:name="android.permission.NFC" />
+30-->/workspace/native/android/app/src/main/AndroidManifest.xml:16:5-62
+30-->/workspace/native/android/app/src/main/AndroidManifest.xml:16:22-59
+31
+32    <uses-feature
+32-->/workspace/native/android/app/src/main/AndroidManifest.xml:17:5-88
+33        android:name="android.hardware.bluetooth"
+33-->/workspace/native/android/app/src/main/AndroidManifest.xml:17:19-60
+34        android:required="false" />
+34-->/workspace/native/android/app/src/main/AndroidManifest.xml:17:61-85
+35    <uses-feature
+35-->/workspace/native/android/app/src/main/AndroidManifest.xml:18:5-85
+36        android:name="android.hardware.camera"
+36-->/workspace/native/android/app/src/main/AndroidManifest.xml:18:19-57
+37        android:required="false" />
+37-->/workspace/native/android/app/src/main/AndroidManifest.xml:18:58-82
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-4/2f0b762fe58fd0b1ffb0c562d7ec27b7/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+40        android:name="app.offchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-4/2f0b762fe58fd0b1ffb0c562d7ec27b7/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-4/2f0b762fe58fd0b1ffb0c562d7ec27b7/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="app.offchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-4/2f0b762fe58fd0b1ffb0c562d7ec27b7/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-4/2f0b762fe58fd0b1ffb0c562d7ec27b7/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->/workspace/native/android/app/src/main/AndroidManifest.xml:19:5-38:19
+46        android:allowBackup="true"
+46-->/workspace/native/android/app/src/main/AndroidManifest.xml:23:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] /root/.gradle/caches/transforms-4/2f0b762fe58fd0b1ffb0c562d7ec27b7/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+48        android:extractNativeLibs="false"
+49        android:hardwareAccelerated="true"
+49-->/workspace/native/android/app/src/main/AndroidManifest.xml:25:9-43
+50        android:icon="@mipmap/ic_launcher"
+50-->/workspace/native/android/app/src/main/AndroidManifest.xml:21:9-43
+51        android:label="@string/app_name"
+51-->/workspace/native/android/app/src/main/AndroidManifest.xml:20:9-41
+52        android:roundIcon="@mipmap/ic_launcher"
+52-->/workspace/native/android/app/src/main/AndroidManifest.xml:22:9-48
+53        android:theme="@style/Theme.Offchat"
+53-->/workspace/native/android/app/src/main/AndroidManifest.xml:26:9-45
+54        android:usesCleartextTraffic="true" >
+54-->/workspace/native/android/app/src/main/AndroidManifest.xml:24:9-44
+55        <activity
+55-->/workspace/native/android/app/src/main/AndroidManifest.xml:27:9-37:20
+56            android:name="app.offchat.MainActivity"
+56-->/workspace/native/android/app/src/main/AndroidManifest.xml:28:13-41
+57            android:configChanges="orientation|screenSize|keyboardHidden|uiMode"
+57-->/workspace/native/android/app/src/main/AndroidManifest.xml:30:13-81
+58            android:exported="true"
+58-->/workspace/native/android/app/src/main/AndroidManifest.xml:29:13-36
+59            android:launchMode="singleTask"
+59-->/workspace/native/android/app/src/main/AndroidManifest.xml:31:13-44
+60            android:windowSoftInputMode="adjustResize" >
+60-->/workspace/native/android/app/src/main/AndroidManifest.xml:32:13-55
+61            <intent-filter>
+61-->/workspace/native/android/app/src/main/AndroidManifest.xml:33:13-36:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/workspace/native/android/app/src/main/AndroidManifest.xml:34:17-69
+62-->/workspace/native/android/app/src/main/AndroidManifest.xml:34:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/workspace/native/android/app/src/main/AndroidManifest.xml:35:17-77
+64-->/workspace/native/android/app/src/main/AndroidManifest.xml:35:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+70            android:authorities="app.offchat.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] /root/.gradle/caches/transforms-4/6894c33889d2460e56a0a060fe53b931/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-4/b6d259e442acdb78500226fdd65738e2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-4/b6d259e442acdb78500226fdd65738e2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] /root/.gradle/caches/transforms-4/b6d259e442acdb78500226fdd65738e2/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>

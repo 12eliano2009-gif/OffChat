@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "OFFCHAT",
+      "hasCanvas": false,
+      "bodyTextLen": 432,
+      "bodyTextHash": "974e8423ca8fb329862c7532f0f18545575b9390e2adca33239cab25803aa63f",
+      "bodyTextPrefix": "Hell Sprache DE EN ES RU 中文 LOKALES SOZIALES NETZ OFFCHAT Social",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "OFFCHAT",
+      "hasCanvas": false,
+      "bodyTextLen": 432,
+      "bodyTextHash": "974e8423ca8fb329862c7532f0f18545575b9390e2adca33239cab25803aa63f",
+      "bodyTextPrefix": "Hell Sprache DE EN ES RU 中文 LOKALES SOZIALES NETZ OFFCHAT Social",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

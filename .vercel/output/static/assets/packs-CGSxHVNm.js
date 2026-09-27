@@ -1,0 +1,1 @@
+var e=[{id:`10`,nox:10,euro:.99,savePct:0},{id:`25`,nox:25,euro:2.19,savePct:12},{id:`50`,nox:50,euro:3.99,savePct:19},{id:`100`,nox:100,euro:6.99,savePct:29},{id:`250`,nox:250,euro:14.99,savePct:39}];function t(e){let t=typeof e==`number`?e:Number(e),n=Number.isFinite(t)?t:0;return new Intl.NumberFormat(`de-DE`,{style:`currency`,currency:`EUR`}).format(n)}export{t as n,e as t};

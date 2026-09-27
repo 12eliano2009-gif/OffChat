@@ -1,0 +1,1 @@
+import{u as e}from"./install-DB6SbN-b.js";import{r as t}from"./useRouter-Dp_HiUG-.js";var n=t();function r({className:t,...r}){return(0,n.jsx)(`label`,{className:e(`text-xs font-medium tracking-wide text-muted`,t),...r})}export{r as t};

@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-Dp_HiUG-.js";import{s as t,t as n}from"./signed-in-vWVgBvls.js";import{t as r}from"./profile-view-Axa8g6Uh.js";var i=e();function a(){return(0,i.jsx)(n,{children:(0,i.jsx)(t,{children:(0,i.jsx)(r,{})})})}export{a as component};
